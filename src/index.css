@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #ddd;
+    height: auto;
+}
 
 * {
   box-sizing: border-box;
@@ -6,21 +14,27 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-}
+
 
 .container {
+  background-color: #C5E1A5;
   max-width: 500px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 2px solid #1e1f26;
+  border: 2px solid #616161;
   padding: 30px;
   border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgba(139, 195, 75,0.0048),
+    0 6.7px 5.3px rgba(139, 195, 75, 0.048),
+    0 12.5px 10px rgba(139, 195, 75, 0.06),
+    0 22.3px 17.9px rgba(139, 195, 75, 0.072),
+    0 41.8px 33.4px rgba(139, 195, 75, 0.086),
+    0 100px 80px rgba(139, 195, 75,.12)
 }
 
 .header {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,6 +79,9 @@ body {
   border-left: 5px solid #2fb45a;
 }
 
+.task.no-reminder {
+  border-left: 5px solid #ff0000;
+}
 .task h3 {
   display: flex;
   align-items: center;
