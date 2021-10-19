@@ -1,0 +1,23 @@
+{
+  "tasks": [
+    {
+      "id":1,
+      "text":"Be kind",
+      "day": "Dec 22th at 0:00am",
+      "reminder": true
+  },
+  {
+      "id":2,
+      "text":"be cool",
+      "day": "jun 22th at 0:00am",
+      "reminder": true
+  },
+  {
+      "id":3,
+      "text":"I am cool",
+      "day": "Dec 12th at 0:00am",
+      "reminder": true
+  }
+  ]
+
+}
